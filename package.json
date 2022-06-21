@@ -1,17 +1,14 @@
 {
-  "name": "simplefolio",
+  "name": "portfolio-oskar-junghans",
   "version": "1.0.1",
-  "private": "true",
+  "private": true,
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
+    "start": "node src/index.js",
     "build": "parcel build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
-  },
+  "repository": "git+https://github.com/cobidev/simplefolio.git",
   "keywords": [],
   "author": "Jacobo Martinez",
   "license": "ISC",
@@ -27,8 +24,10 @@
   "dependencies": {
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.3",
+    "express": "^4.18.1",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.2"
-  }
+  },
+  "main": "server.js"
 }
